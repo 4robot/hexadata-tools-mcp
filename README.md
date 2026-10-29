@@ -2,6 +2,8 @@
 
 [Hexadata Tools](https://apify.com/hexadatalabs/business-validation-tools-mcp) is a remote MCP server (Streamable HTTP, hosted on Apify) with **15 deterministic tools** that an AI agent should call instead of guessing: check digits, official tables and official calculations. No LLM inside: the same input always gives the same answer, nothing is stored, and you pay per call ($0.005 per single call, $0.002 per item in batches; invalid input is free).
 
+![The 15 Hexadata Tools: validate, look up, calculate](https://raw.githubusercontent.com/4robot/hexadata-tools-mcp/main/infographic.png)
+
 ## Tools
 
 | Tool | Use this when… | Source |
