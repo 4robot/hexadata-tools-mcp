@@ -1,26 +1,26 @@
 {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.github.4robot/hexadata-tools",
-    "description": "15 deterministic business validation tools for AI agents: tax IDs (15 countries), EU VAT, IBAN, CLABE, LEI, postal and HS codes, VAT rates, Mexican payroll.",
-    "repository": {
-        "url": "https://github.com/4robot/hexadata-tools-mcp",
-        "source": "github"
-    },
-    "version": "1.0.0",
-    "websiteUrl": "https://apify.com/hexadatalabs/business-validation-tools-mcp",
-    "remotes": [
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.4robot/hexadata-tools",
+  "description": "15 deterministic validation tools for AI agents: tax IDs (15 countries), VAT, IBAN, LEI, HS codes.",
+  "repository": {
+    "url": "https://github.com/4robot/hexadata-tools-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/hexadatalabs/business-validation-tools-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hexadatalabs--business-validation-tools-mcp.apify.actor/mcp",
+      "headers": [
         {
-            "type": "streamable-http",
-            "url": "https://hexadatalabs--business-validation-tools-mcp.apify.actor/mcp",
-            "headers": [
-                {
-                    "name": "Authorization",
-                    "description": "Apify API token as a Bearer token (https://console.apify.com/settings/integrations), or an x402 prepaid token from Apify AGI",
-                    "isRequired": true,
-                    "isSecret": true,
-                    "format": "string"
-                }
-            ]
+          "name": "Authorization",
+          "description": "Apify API token as a Bearer token (https://console.apify.com/settings/integrations), or an x402 prepaid token from Apify AGI",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
         }
-    ]
+      ]
+    }
+  ]
 }
